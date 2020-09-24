@@ -59,5 +59,7 @@ class Anotador:
         for nota in self.notas:
             if nota.coincide(filtro):
                 resultados.append(nota)
+            else:
+                print("No se encontraron resultados de notas")
 
         return resultados
